@@ -22,7 +22,7 @@ body{
 
 main{
     background: #333;
-    height: 350px;
+    /* height: 350px; */
     width: 30%;
     padding: 2rem;
     border-radius: 10px;
@@ -56,9 +56,6 @@ button:hover{
 }
 
 @media screen and (max-width: 768px) {
-    body{
-        background: red;
-    }
 
     main{
         width: 50%;

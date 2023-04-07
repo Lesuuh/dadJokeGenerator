@@ -8,12 +8,6 @@ btn.addEventListener("click", async () => {
 })
 
 
-
-
-
-
-
-
 // function that calls the dad joke api
 
 const getJoke = async () => {

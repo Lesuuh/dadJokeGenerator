@@ -22,7 +22,7 @@ body{
 
 main{
     background: #333;
-    height: 300px;
+    height: 350px;
     width: 30%;
     padding: 2rem;
     border-radius: 10px;
@@ -30,7 +30,12 @@ main{
     display: flex;
     gap: 1rem;
     flex-flow: column;
+    align-items: center;
     justify-content: space-between;
+}
+
+p{
+    font-size: 5rem;
 }
 
 button{
@@ -50,7 +55,7 @@ button:hover{
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     body{
         background: red;
     }
@@ -61,5 +66,8 @@ button:hover{
 
     button{
         padding: .5rem;
+    }
+    p{
+        font-size: 4rem;
     }
 }
